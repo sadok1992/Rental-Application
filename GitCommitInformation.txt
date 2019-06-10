@@ -1,0 +1,3 @@
+Steps to push the file to the master: you can always check the status in each step by doing (git status)
+1) add the file inside your Git Repository. 
+2) Move the file create to the git staging area by using the command (git add "file name")
