@@ -2,4 +2,4 @@ Steps to push the file to the master: you can always check the status in each st
 1) add the file inside your Git Repository. 
 2) Move the file create to the git staging area by using the command (git add "file name")
 3) Commit our file by moving it to our local Repository using the command (git commit -m "commit message")
-4) Push the changes to the remote Repository by using the command (git push "branch name")
+4) Push the changes to the remote Repository by using the command (git push origin "branch name")
