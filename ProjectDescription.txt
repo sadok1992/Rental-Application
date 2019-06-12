@@ -1,1 +1,1 @@
-This app represent a framework which represent any rental application and can be extended for any futur requirements.
+This app is a framework which represent any rental application and can be extended for any futur specific requirements.
