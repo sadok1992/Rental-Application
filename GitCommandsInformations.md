@@ -11,3 +11,9 @@
 2) To compare between the Working Directory area and the local repository area, I use the command (git difftool HEAD) 
 3) To compare between the Staging area and the local repository, I use the command (git difftool --staged HEAD)
 4) To compare between the Local Repository area and the Remote Repository area, I use the command (git difftool master origin/master)
+
+# Steps that can be done for Branching (In good practice while working in a project it's always better to create a new branch for every feature and then merge it in Master)
+1) To list all current branches use (git branch -a)
+2) To create a new branch use (git branch "Name of the Branch")
+3) To move to another branch use (git checkout "branch name to move to")
+4) To delete a branch use (git branch -d "branch name to be deleted")
