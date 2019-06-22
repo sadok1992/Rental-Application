@@ -18,3 +18,4 @@
 3) To move to another branch use (git checkout "branch name to move to")
 4) To delete a branch use (git branch -d "branch name to be deleted")
 5) To merge the different modifications in one branch to the master we need to point to the master branch then use (git merge "branch name to be merged with the master")
+6) In case of conflict happening while merging we can use our tool p4merge by using the command (git mergetool)
