@@ -10,3 +10,4 @@
 1) To compare between the Working Directory area and the stating area, I use the command (git difftool)
 2) To compare between the Working Directory area and the local repository area, I use the command (git difftool HEAD) 
 3) To compare between the Staging area and the local repository, I use the command (git difftool --staged HEAD)
+4) To compare between the Local Repository area and the Remote Repository area, I use the command (git difftool master origin/master)
