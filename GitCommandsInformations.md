@@ -24,3 +24,9 @@
 1) Point to the branch where you want the rebase to happen use (git checkout "branch name to move to")
 2) Rebase use (git rebase "source frome where we will take the changes") the source in most of the case will be master.
 3) In case we wanted to do a rebase and we have a conflict we need to cancel our current rebase by using (git rebase "souce of modification usually master" --abort) then we solve the conflict.
+
+# Steps that can be done in Stashing (Stashing is the concept when we did some changes for a feature but we are still in Progress and suddenly in urgent requirement comes and need to be done here we can hide our changes and take care of the new requirements)
+1) Staching the current changes (saving them and hide them from git) by using (git stash) or (git stash save) by deffault it will invoke save.
+2) After finish working on the urgent requirement we need to get back our saved changes by using (git stash apply) then commit the changes and push it to the remote repository.
+3) We can always list all the stashing changes by using (git stash list)
+4) After pushing the last stashed modification we should drop it by using (git stash drop) which will drop the last saved modification.
