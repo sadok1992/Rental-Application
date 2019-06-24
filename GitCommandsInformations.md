@@ -23,3 +23,4 @@
 # Steps that can be done in Rebasing (Rebasing is the concept one the master is updated but the current branch doesn't have this modification which want to push them to the current branch)
 1) Point to the branch where you want the rebase to happen use (git checkout "branch name to move to")
 2) Rebase use (git rebase "source frome where we will take the changes") the source in most of the case will be master.
+3) In case we wanted to do a rebase and we have a conflict we need to cancel our current rebase by using (git rebase "souce of modification usually master" --abort) then we solve the conflict.
