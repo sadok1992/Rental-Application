@@ -19,3 +19,7 @@
 4) To delete a branch use (git branch -d "branch name to be deleted")
 5) To merge the different modifications in one branch to the master we need to point to the master branch then use (git merge "branch name to be merged with the master")
 6) In case of conflict happening while merging we can use our tool p4merge by using the command (git mergetool)
+
+# Steps that can be done in Rebasing (Rebasing is the concept one the master is updated but the current branch doesn't have this modification which want to push them to the current branch)
+1) Point to the branch where you want the rebase to happen use (git checkout "branch name to move to")
+2) Rebase use (git rebase "source frome where we will take the changes") the source in most of the case will be master.
