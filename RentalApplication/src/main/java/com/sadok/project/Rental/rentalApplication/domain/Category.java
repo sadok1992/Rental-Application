@@ -1,15 +1,14 @@
 package com.sadok.project.Rental.rentalApplication.domain;
 
-import java.util.List;
-
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Product {
-
+public class Category {
+	
 	private String name;
 	private String description;
-	private List<Category> categories;
+	private Category parentCategory;
+
 }
